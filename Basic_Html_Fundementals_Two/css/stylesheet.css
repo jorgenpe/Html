@@ -206,21 +206,21 @@ a:hover {
 }
 
 .headElement{
-  grid-area: 2/1;
+  grid-area: 2/1/span 2/ span 2;
   border: 2px solid black;
   background-color: aliceblue;
   
 }
 
 .elementOne{
-  grid-area: 3/1;
+  grid-area: 4/1;
   grid-gap: 10px;
   border: 2px solid black;
   background-color: aliceblue;
 }
 
 .elementTwo{
-  grid-area: 3/2;
+  grid-area: 4/2;
   grid-gap: 10px;
   border: 2px solid black;
   background-color: aliceblue;
