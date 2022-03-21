@@ -1,0 +1,261 @@
+*{
+  
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color:rgb(200, 201, 189);
+}
+ 
+#body {
+  margin: auto;
+  display: grid;
+  width:1024px;
+  font-size: 15px;
+  grid-template-areas:"mainHeader mainHeader mainHeader"
+                      "mainElement mainElement asideOne"
+                      "mainElement mainElement asideOne"
+                      "footerOne footerOne footerOne";
+  border: 2px solid black; 
+  padding: 1px solid black;                                       
+}
+
+.bodyLogin{
+
+  margin: auto;
+  display: grid;
+  width:1024px;
+  font-size: 15px;
+  
+  grid-template-areas:"mainHeader mainHeader mainHeader"
+                      "loginElement loginElement loginElement"
+                      "loginElement loginElement loginElement"
+                      "footerOne footerOne footerOne";
+  border: 2px solid black; 
+  padding: 1px solid black; 
+  
+}
+
+#body > header{
+  
+  grid-area: mainHeader;
+  
+  border: 2px solid black;  
+  width:auto;
+}
+
+#body > main{
+  grid-area: mainElement;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "hTwo ."
+                       "headElement headElement"
+                       "headElement headElement"
+                       "elementOne elementTwo"
+                       "elementOne elementTwo"
+                       "elementOne elementTwo";
+  background-color: chocolate;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.bodyLogin > main{
+  width:1024px;
+  
+  grid-area: loginElement;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto;
+                      
+                      ;
+  background-color: chocolate;
+  border: 2px solid black;
+  padding: 10px;
+
+}
+
+
+#body > aside{
+  grid-area: asideOne;
+  background-color: blueviolet;
+  grid-gap: 10px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#body > footer{
+  grid-area: footerOne;
+  background-color:rgb(200, 201, 189) ;
+  border: 2px solid black;
+}
+
+.bodyLogin > footer{
+  width:1024px;
+  grid-area: footerOne;
+  background-color:rgb(200, 201, 189) ;
+  border: 2px solid black;
+}
+
+
+a{
+  text-align: center;
+}
+
+.mainHeader{
+  width:1024px;
+  display: grid;
+  grid-template-areas: "logo orderedListOne orderedListTwo orderedListThree empty login";
+  border: 2px solid black;
+  
+}
+
+
+
+.link a {
+    
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  color:black;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color:steelblue;
+  
+}
+
+a:hover {
+  background-color:seagreen;
+  color: ivory;
+}
+
+.orderedListOne{
+  grid-area: 1/2;
+  text-align: center;
+  border: 2px solid black;
+
+}
+
+.orderedListTwo
+{
+  grid-area: 1/3;
+  text-align: center;
+  border: 2px solid black;
+
+}
+
+.orderedListThree{
+  grid-area: 1/4;
+  text-align: center;
+  border: 2px solid black;
+  
+}
+
+.logo{
+  grid-area: 1/1;
+  border: 2px solid black;
+  background-color: rgb(246, 255, 127);
+}
+
+.logoLogin{
+  grid-area: 1/1;
+  border: 2px solid black;
+  background-color: rgb(246, 255, 127);
+  text-transform: uppercase;
+}
+
+
+.empty{
+  grid-area: 1/5;
+  border: 2px solid black;
+  background-color: rgb(246, 255, 127);
+}
+
+.myPage{
+  background-color: rgb(246, 255, 127);
+}
+
+.login{
+  grid-area: 1/6;
+  border: 2px solid black;
+  color:black;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color:rgb(180, 70, 171);
+}
+
+.hTwoLogin{
+  grid-area: 1/2/span 1/ span 1;
+  grid-gap: 10px;
+  border: 2px solid black;
+  
+}
+
+.elementForm{
+  grid-area: 3/2/ span 2/ span 4;
+  grid-gap: 10px;
+  border-radius: 20px;
+  border: 2px solid black; 
+  padding: 20px ;
+  background-color: darkolivegreen;
+}
+
+.hTwo{
+  grid-area: 1/1;
+  grid-gap: 10px;
+  border: 2px solid black;
+}
+
+.headElement{
+  grid-area: 2/1;
+  border: 2px solid black;
+  background-color: aliceblue;
+  
+}
+
+.elementOne{
+  grid-area: 3/1;
+  grid-gap: 10px;
+  border: 2px solid black;
+  background-color: aliceblue;
+}
+
+.elementTwo{
+  grid-area: 3/2;
+  grid-gap: 10px;
+  border: 2px solid black;
+  background-color: aliceblue;
+  padding: 10px rgb(200, 201, 189) ;
+}
+
+.asideTwo{
+  
+  border: 2px solid black;
+  background-color: aliceblue;
+  
+}
+
+ul ,h1 ,h2 ,h3 ,h4 , p, li, ol {
+  background-color: aliceblue;
+}
+
+.nation{
+  text-align: center;
+}
+
+.submit{
+  background-color: green;
+}
+.reset{
+  background-color: red;
+}
+
+img{
+    border: 2px solid black;
+    
+}
+
+ul >li { background: green; }
+ul>li:nth-child(odd) { background: red; }
+
+
+

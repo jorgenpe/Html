@@ -43,7 +43,7 @@
   .grid-container2 {
     display: grid;
     grid-template-areas:
-      'empty2 empty2  aside1'
+      '. .  aside1'
       'header1 empty  aside1'
       'section1 section1 aside1'
       'artical1 artical2 aside1'

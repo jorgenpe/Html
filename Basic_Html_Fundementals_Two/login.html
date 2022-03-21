@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <link rel="stylesheet" href="css/stylesheet.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,39 +9,42 @@
         <title>Document</title>
     </head> 
 
-    <body>
-       <header>
-           <h1>My Page</h1>
-           <ol>
-                <li>
-                    <a href="#"> To a new page 1</a>
-                
-                </li>
-                <li>
-                    <a href="#"> To a new page 2</a>
-                </li>
-            
-                <li>
-                    <a href="#"> To a new page 3</a>
-                </li>
-            
-            </ol>
-        
-        <a href="index.html"> Index</a>
-       </header> 
-       <div>
-            <h2>User login</h2>
+    <body class="loginBody">
+        <div class="bodyLogin">
+       <header class="mainHeader">
+        <div class="logoLogin">
+            <h1 class="myPage">My Page</h1> 
+        </div>    
 
-            <form>                
+            <div class="link orderedListOne">
+                <a href="#"> To a new page 1</a>
+            
+            </div>
+            <div class="link orderedListTwo">
+                <a href="#"> To a new page 2</a>
+            </div>
+        
+            <div class="link orderedListThree">
+                <a href="#"> To a new page 3</a>
+            </div>
+            <div class="empty"></div>
+        
+        <a class="login" href="index.html"> Index</a>
+       </header> 
+       <main id="loginElement"    class="loginElement">
+            <h2 class="hTwoLogin">User login</h2>
+
+            <form class="elementForm">                
                 <input type="text">
                 <input type="password">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
+                <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
             </form>
-
-       </div>
-       <footer>
+            
+       </main>
+       <footer class="footerOne">
         <span style="color:rgb(0, 139, 19)">© Jörgen Pettersson<br></span>
         </footer> 
+    </div>
 
     </body>

@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <link rel="stylesheet" href="css/stylesheet.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>Document</title>
     </head> 
+    
 
-    <body>
+    <body id="body">
+        
+        <header id="mainHeader" class="mainHeader">
+            <div class="logo">
+                <h1 class="myPage">My Page</h1> 
+            </div>    
 
-        <Header>
-           <h1>My Page</h1> 
+                <div class="link orderedListOne">
+                    <a href="#"> To a new page 1</a>
                 
-        <ol>
-            <li>
-                <a href="#"> To a new page 1</a>
-                
-            </li>
-            <li>
-                <a href="#"> To a new page 2</a>
-            </li>
+                </div>
+                <div class="link orderedListTwo">
+                    <a href="#"> To a new page 2</a>
+                </div>
             
-            <li>
-                <a href="#"> To a new page 3</a>
-            </li>
+                <div class="link orderedListThree">
+                    <a href="#"> To a new page 3</a>
+                </div>
             
-        </ol>
-        
-        <a href="login.html"> Login</a>
-        
+                <div class="empty"></div>
+            
+                <a class="login" href="login.html"> Login</a>
+             
         </header>
 
-        <div>
-            <h2>Headline</h2>
-            <p> Hello reader</p>
-            <br>
+        <main class="mainElement">
+            
+                <h2 class="hTwo">Headline</h2>
+        
+            
+            <element class="headElement">
+                <p> Hello reader</p>
+            </element>
+            
 
-            <div>
+            <element class="elementOne">
                 <h3>I'am a smaller headline</h3>
                 <p> I'am the first paragraph in this container</p>
                 <p> I'am the second paragraph in this container</p>
 
 
-            </div>
+            </element>
             <br>
-            <div>
+            <element class="elementTwo">
                 <h4>I'am even a smaller headline</h4>
                 <p> I'am the first paragraph in this container</p>
                 <p> I'am the second paragraph in this container</p>
@@ -54,10 +61,13 @@
                 <p>I'am Jörgen Pettersson famous tiger:</p>
                 <img  src="img/tiger.JPG" alt="Tiger" width="200" height="200">        
                 <br><br>
-            </div>
+            </element>
+ 
+        </main>
 
-            <div>
-                <h2>Nations for aside</h2>
+        <aside class="asideOne">
+            <div class="asideTwo">
+                <h2 class="nation">Nations for aside</h2>
                 <ul>
                     <li>Sweden<br><br>
                         <ol>
@@ -82,9 +92,11 @@
                     </li>
                 </ul>
             </div>
-            
-        </div>
-        <footer>
+        </aside>
+        
+        <footer class="footerOne">
             <span style="color:rgb(0, 139, 19)">© Jörgen Pettersson<br></span>
         </footer> 
+    
     </body>
+</html>
