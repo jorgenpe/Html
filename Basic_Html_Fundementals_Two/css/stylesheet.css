@@ -18,7 +18,7 @@
   padding: 1px solid black;                                       
 }
 
-.bodyLogin{
+.loginBody{
 
   margin: auto;
   display: grid;
@@ -58,7 +58,7 @@
 }
 
 .bodyLogin > main{
-  width:1024px;
+  
   
   grid-area: loginElement;
   display: grid;
@@ -88,7 +88,7 @@
 }
 
 .bodyLogin > footer{
-  width:1024px;
+  
   grid-area: footerOne;
   background-color:rgb(200, 201, 189) ;
   border: 2px solid black;
@@ -100,7 +100,7 @@ a{
 }
 
 .mainHeader{
-  width:1024px;
+  width:1022px;
   display: grid;
   grid-template-areas: "logo orderedListOne orderedListTwo orderedListThree empty login";
   border: 2px solid black;
